@@ -97,20 +97,20 @@
 		<repository>
 			<id>repo.egovernments.org</id>
 			<name>eGov ERP Releases Repository</name>
-			<url>http://repo.egovernments.org/nexus/content/repositories/releases/</url>
+			<url>http://13.233.229.157:8081/nexus/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
-			<id>repo.egovernments.org</id>
+			<id>13.233.229.157:8081</id>
 			<name>eGov ERP Snapshots Repository</name>
-			<url>http://repo.egovernments.org/nexus/content/repositories/snapshots/</url>
+			<url>http://13.233.229.157:8081/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
 	<repositories>
 		<repository>
-			<id>repo.egovernments.org</id>
+			<id>13.233.229.157:8081</id>
 			<name>eGov Public Repository Group</name>
-			<url>http://repo.egovernments.org/nexus/content/groups/public/</url>
+			<url>http://13.233.229.157:8081/nexus/content/groups/public/</url>
 			<snapshots>
 				<enabled>true</enabled>
 				<updatePolicy>always</updatePolicy>
@@ -131,9 +131,9 @@
 
 	<pluginRepositories>
 		<pluginRepository>
-			<id>repo.egovernments.org</id>
+			<id>13.233.229.157:8081</id>
 			<name>eGov Public Repository Group</name>
-			<url>http://repo.egovernments.org/nexus/content/groups/public/</url>
+			<url>http://13.233.229.157:8081/nexus/content/groups/public/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
